@@ -161,7 +161,6 @@ int main() {
     cout << "Priority Queue 1 (smallest element): " << heap.extractMin() << endl;
     cout << "Min Heap after deletion: ";
     heap.displayHeap();
-    cout << endl;
 
     cout << "Priority Queue 2 (next smallest element): " << heap.extractMin() << endl;
     return 0;
